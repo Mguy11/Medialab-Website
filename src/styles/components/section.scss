@@ -1,0 +1,27 @@
+.section {
+  &::after {
+    content: '';
+    height: 0.5rem;
+    width: 100%;
+    margin-top: -0.25rem;
+    position: absolute;
+  }
+
+  &--blue {
+    &::after {
+      background-color: darken($color: $color-blue, $amount: 12);
+    }
+  }
+
+  &--orange {
+    &::after {
+      background-color: darken($color: $color-orange, $amount: 12);
+    }
+  }
+
+  &--footer {
+    &::after {
+      background-color: $color-grey;
+    }
+  }
+}
