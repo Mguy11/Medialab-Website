@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Amatic+SC|Sanchez&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Marmelad&display=swap');
 
 * {
   margin: 0;
@@ -6,7 +6,7 @@
 }
 
 .body {
-  font-family: 'Sanchez', serif;
+  font-family: 'Marmelad', sans-serif;
   color: $color-white;
 }
 
@@ -14,11 +14,20 @@
   overflow: hidden;
 }
 
+.wrap {
+  max-width: 140rem;
+  box-sizing: border-box;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 3rem;
+  padding-left: 3rem;
+}
+
 h1,
 h2,
 h3,
 h4 {
-  font-family: 'Amatic SC', cursive;
+  font-family: 'Marmelad', sans-serif;
   color: $color-white;
 }
 
@@ -36,7 +45,7 @@ h2 {
 
 p,
 span {
-  font-family: 'Sanchez', serif;
+  font-family: 'Marmelad', sans-serif;
   color: $color-white;
   font-size: 1.3rem;
   line-height: 1.5rem;
@@ -45,7 +54,7 @@ span {
 ul,
 ol,
 li {
-  font-family: 'Sanchez', serif;
+  font-family: 'Marmelad', sans-serif;
   color: $color-white;
 }
 
