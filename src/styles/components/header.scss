@@ -1,10 +1,22 @@
 .header {
-  $self: &;
+    background-color: $color-primary;
+    height: 60vh;
+    display: flex;
+    margin-bottom: 6rem;
+ 
+    &__content {
+        
+    }
 
-  height: 80vh;
-  width: 100vw;
+    &__title {
+        font-family: 'Monsterrat', sans-serif;
+        font-weight: 900;
+        font-size: 4rem;
+    }
 
-  position: relative;
-  background-size: cover;
-  background-position: center;
+    &__logo {
+        display: flex;
+        padding: 6rem 0;
+    }
+    
 }

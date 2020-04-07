@@ -1,15 +1,22 @@
-//Vars
-@import './vars/colors';
+//fonts
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two&family=Montserrat:wght@900&family=Roboto&display=swap');
 
-//Components
-@import './components/navigation.scss';
-@import './components/header.scss';
-@import './components/section.scss';
+//variables
+@import './vars/colors.scss';
+
+//components
+@import './components/concept.scss';
+@import './components/concepts.scss';
 @import './components/footer.scss';
+@import './components/header.scss';
+@import './components/ideas.scss';
+@import './components/insights.scss';
+@import './components/research.scss';
+@import './components/team.scss';
+@import './components/logo.scss';
 
-//Sections
-@import './sections/__intro.scss';
-@import './sections/_models';
+//Webparts
+@import './components/webparts/team-member.scss';
 
-//Reset
-@import './vars/reset';
+//reset
+@import './vars/reset.scss';

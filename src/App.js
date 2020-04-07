@@ -1,20 +1,20 @@
 import React from 'react';
-import Navigation from './components/navigation';
 import Header from './components/header';
 import './styles/style.scss';
-import Intro from './sections/__intro';
-import Models from './sections/__models';
-import Footer from './components/footer';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Team from './components/team';
+import Research from './components/research';
+import Insights from './components/insights';
+import Ideas from './components/ideas';
 
 function App() {
   return (
     <div className="App">
-      <div className="wrapper">
-        <Header />
-        <Intro />
-        <Models />
-        <Footer />
-      </div>
+      <Header />
+      <Team />
+      <Research />
+      <Insights />
+      <Ideas />
     </div>
   );
 }
